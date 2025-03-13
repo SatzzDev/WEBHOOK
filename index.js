@@ -7,7 +7,9 @@ this.winners = []
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '.')));
 
-
+app.get('/', (req, res) => {
+res.send('Hello World.')
+})
 
 app.get('/games/tebakheroml', (req, res) => {
 res.sendFile(path.join(__dirname,'games/tebakhero/tebak-heroml.html'));
