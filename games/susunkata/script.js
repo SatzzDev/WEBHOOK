@@ -7,7 +7,7 @@ const { value: phoneNumber } = await Swal.fire({
 title: 'Enter Your WhatsApp Number',
 input: 'text',
 inputLabel: 'Your WhatsApp Number',
-inputPlaceholder: '08xxxxxxxxxx',
+inputPlaceholder: 'cth: 6282170988479',
 showCancelButton: false
 });
 if (!phoneNumber) return;
